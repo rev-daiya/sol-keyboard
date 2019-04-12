@@ -73,8 +73,8 @@ LAYOUT( \
       KC_TAB,  _00,     _01,     _02,     _03,     _04,    JP_LBRC,  JP_RBRC, _05,     _06,     _07,     _08,     _09,     JP_AT, \
       FN_CAPS, _10,     _11,     _12,     _13,     _14,    KC_LPRN,  KC_RPRN, _15,     _16,     _17,     _18,     _19,     JP_COLN, \
       KC_LSFT, _20,     _21,     _22,     _23,     _24,    KC_LCBR,  KC_RCBR, _25,     _26,     _27,     _28,     _29,     JP_BSLS, \
-      KC_LCTL, KC_LGUI, KC_LALT, RGB_TOG,  ADJ,     KC_SPC, KC_DEL,  KC_ENT,  KC_BSPC,  FN,      KC_LEFT, KC_DOWN, KC_UP,  KC_RIGHT, \
-                        KC_VOLU, KC_VOLD,          KC_SPC, KC_DEL,  KC_ENT,  KC_BSPC,          KC_VOLU, KC_VOLD \
+      KC_LCTL, KC_LGUI, KC_LALT, RGB_TOG,  ADJ,     KC_SPC, JP_ZHTG,  KC_ENT,  KC_BSPC,  FN,      KC_LEFT, KC_DOWN, KC_UP,  KC_RIGHT, \
+                        KC_VOLU, KC_VOLD,          KC_SPC, JP_ZHTG,  KC_ENT,  KC_BSPC,          KC_VOLU, KC_VOLD \
 )
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
